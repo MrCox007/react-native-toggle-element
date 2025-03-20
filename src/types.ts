@@ -56,6 +56,7 @@ export interface ReactNativeToggleElementProps {
   animationDuration?: number;
   activeTrackBarComponent?: React.ReactNode;
   inActiveTrackBarComponent?: React.ReactNode;
+  managed: boolean;
 }
 export interface Styles {
   container: ViewStyle;
